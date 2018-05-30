@@ -1,0 +1,25 @@
+host: http://sf3rest.local/app_dev.php
+
+auth:
+    url: /oauth/v2/token
+    client_id: 1_3bcbxd9e24g0gk4swg0kwgcwg4o8k8g4g888kwc44gcc0gwwk4
+    client_secret: 4ok2x70rlfokc8g0wws8c8kwcokw80k44sg48goc0ok4w0so0k
+    username: admin
+    password: admin
+
+api:
+    getPeople:
+        url: /api/people
+        type: GET
+    getPerson:
+        url: /api/people
+        type: GET
+    postPerson:
+        url: /api/people
+        type: POST
+    putPerson:
+        url: /api/person
+        type: PUT
+    deletePerson:
+        url: /api/people
+        type: DELETE
